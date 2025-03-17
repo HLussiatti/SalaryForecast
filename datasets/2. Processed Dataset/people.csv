@@ -1,376 +1,376 @@
-id,Age,Gender,Education Level,Job Title,Years of Experience,job_title_descriptions,Seniority,Category
+id,Age,Gender,Education Level,Job Title,Years of Experience,job_title_descriptions,Seniority,Job Category
 0,32.0,Male,Bachelor's,Software Engineer,5.0,"['software', 'engineer']",Other,Engineering
-1,28.0,Female,Master's,Data Analyst,3.0,"['data', 'analyst']",Other,Finance
-2,45.0,Male,PhD,Senior Manager,15.0,"['senior', 'manager']",Manager,Other
-3,36.0,Female,Bachelor's,Sales Associate,7.0,"['sales', 'associate']",Mid,Sales
-4,52.0,Male,Master's,Director,20.0,['director'],Director,Other
-5,29.0,Male,Bachelor's,Marketing Analyst,2.0,"['marketing', 'analyst']",Other,Finance
-6,42.0,Female,Master's,Product Manager,12.0,"['product', 'manager']",Manager,Other
-7,31.0,Male,Bachelor's,Sales Manager,4.0,"['sales', 'manager']",Manager,Sales
-8,26.0,Female,Bachelor's,Marketing Coordinator,1.0,"['marketing', 'coordinator']",Mid,Marketing
+1,28.0,Female,Master's,Data Analyst,3.0,"['data', 'analyst']",Other,Engineering
+2,45.0,Male,PhD,Senior Manager,15.0,"['senior', 'manager']",Senior,Other
+3,36.0,Female,Bachelor's,Sales Associate,7.0,"['sales', 'associate']",Semi Senior,Sales
+4,52.0,Male,Master's,Director,20.0,['director'],Director/Executive,Other
+5,29.0,Male,Bachelor's,Marketing Analyst,2.0,"['marketing', 'analyst']",Other,Marketing
+6,42.0,Female,Master's,Product Manager,12.0,"['product', 'manager']",Senior,Other
+7,31.0,Male,Bachelor's,Sales Manager,4.0,"['sales', 'manager']",Senior,Sales
+8,26.0,Female,Bachelor's,Marketing Coordinator,1.0,"['marketing', 'coordinator']",Semi Senior,Marketing
 9,38.0,Male,PhD,Senior Scientist,10.0,"['senior', 'scientist']",Senior,Other
 10,29.0,Male,Master's,Software Developer,3.0,"['software', 'developer']",Other,Engineering
-11,48.0,Female,Bachelor's,HR Manager,18.0,"['hr', 'manager']",Manager,HR
+11,48.0,Female,Bachelor's,HR Manager,18.0,"['hr', 'manager']",Senior,HR
 12,35.0,Male,Bachelor's,Financial Analyst,6.0,"['financial', 'analyst']",Other,Finance
-13,40.0,Female,Master's,Project Manager,14.0,"['project', 'manager']",Manager,Operations
+13,40.0,Female,Master's,Project Manager,14.0,"['project', 'manager']",Senior,Operations
 14,27.0,Male,Bachelor's,Customer Service Rep,2.0,"['customer', 'service', 'rep']",Other,Support
-15,44.0,Male,Bachelor's,Operations Manager,16.0,"['operations', 'manager']",Manager,Operations
-16,33.0,Female,Master's,Marketing Manager,7.0,"['marketing', 'manager']",Manager,Marketing
+15,44.0,Male,Bachelor's,Operations Manager,16.0,"['operations', 'manager']",Senior,Operations
+16,33.0,Female,Master's,Marketing Manager,7.0,"['marketing', 'manager']",Senior,Marketing
 17,39.0,Male,PhD,Senior Engineer,12.0,"['senior', 'engineer']",Senior,Engineering
 18,25.0,Female,Bachelor's,Data Entry Clerk,0.0,"['data', 'entry', 'clerk']",Junior,Engineering
-19,51.0,Male,Bachelor's,Sales Director,22.0,"['sales', 'director']",Director,Sales
-20,34.0,Female,Master's,Business Analyst,5.0,"['business', 'analyst']",Other,Finance
-21,47.0,Male,Master's,VP of Operations,19.0,"['vp', 'operations']",Director,Operations
+19,51.0,Male,Bachelor's,Sales Director,22.0,"['sales', 'director']",Director/Executive,Sales
+20,34.0,Female,Master's,Business Analyst,5.0,"['business', 'analyst']",Other,Sales
+21,47.0,Male,Master's,VP of Operations,19.0,"['vp', 'operations']",Director/Executive,Operations
 22,30.0,Male,Bachelor's,IT Support,2.0,['support'],Other,Support
 23,36.0,Female,Bachelor's,Recruiter,9.0,['recruiter'],Other,HR
-24,41.0,Male,Master's,Financial Manager,13.0,"['financial', 'manager']",Manager,Finance
-25,28.0,Female,Bachelor's,Social Media Specialist,3.0,"['social', 'media', 'specialist']",Mid,Marketing
-26,37.0,Female,Master's,Software Manager,11.0,"['software', 'manager']",Manager,Engineering
+24,41.0,Male,Master's,Financial Manager,13.0,"['financial', 'manager']",Senior,Finance
+25,28.0,Female,Bachelor's,Social Media Specialist,3.0,"['social', 'media', 'specialist']",Semi Senior,Marketing
+26,37.0,Female,Master's,Software Manager,11.0,"['software', 'manager']",Senior,Engineering
 27,24.0,Male,Bachelor's,Junior Developer,1.0,"['junior', 'developer']",Junior,Engineering
 28,43.0,Female,PhD,Senior Consultant,15.0,"['senior', 'consultant']",Senior,Other
 29,33.0,Male,Master's,Product Designer,6.0,"['product', 'designer']",Other,Design
-30,50.0,Male,Bachelor's,CEO,25.0,['ceo'],Executive,Other
+30,50.0,Male,Bachelor's,CEO,25.0,['ceo'],Director/Executive,Other
 31,31.0,Female,Bachelor's,Accountant,4.0,['accountant'],Other,Finance
 32,29.0,Male,Master's,Data Scientist,3.0,"['data', 'scientist']",Other,Engineering
-33,39.0,Female,Bachelor's,Marketing Specialist,10.0,"['marketing', 'specialist']",Mid,Marketing
-34,46.0,Male,PhD,Senior Manager,20.0,"['senior', 'manager']",Manager,Other
+33,39.0,Female,Bachelor's,Marketing Specialist,10.0,"['marketing', 'specialist']",Semi Senior,Marketing
+34,46.0,Male,PhD,Senior Manager,20.0,"['senior', 'manager']",Senior,Other
 35,27.0,Male,Bachelor's,Technical Writer,2.0,"['technical', 'writer']",Other,Writing
 36,35.0,Female,Bachelor's,HR Generalist,7.0,"['hr', 'generalist']",Other,HR
 37,42.0,Male,Master's,Project Engineer,14.0,"['project', 'engineer']",Other,Engineering
 38,26.0,Female,Bachelor's,Customer Success Rep,1.0,"['customer', 'success', 'rep']",Other,Sales
-39,49.0,Male,Bachelor's,Sales Executive,21.0,"['sales', 'executive']",Mid,Sales
+39,49.0,Male,Bachelor's,Sales Executive,21.0,"['sales', 'executive']",Semi Senior,Sales
 40,34.0,Female,Master's,UX Designer,5.0,"['ux', 'designer']",Other,Design
-41,48.0,Male,Master's,Operations Director,18.0,"['operations', 'director']",Director,Operations
+41,48.0,Male,Master's,Operations Director,18.0,"['operations', 'director']",Director/Executive,Operations
 42,30.0,Male,Bachelor's,Network Engineer,3.0,"['network', 'engineer']",Other,Engineering
 43,36.0,Female,Bachelor's,Administrative Assistant,8.0,"['administrative', 'assistant']",Other,Other
 44,41.0,Male,Master's,Strategy Consultant,13.0,"['strategy', 'consultant']",Other,Other
 45,28.0,Female,Bachelor's,Copywriter,2.0,['copywriter'],Other,Writing
-46,32.0,Male,Bachelor's,Account Manager,5.0,"['account', 'manager']",Manager,Sales
-47,45.0,Female,Master's,Director of Marketing,16.0,"['director', 'marketing']",Director,Marketing
+46,32.0,Male,Bachelor's,Account Manager,5.0,"['account', 'manager']",Senior,Sales
+47,45.0,Female,Master's,Director of Marketing,16.0,"['director', 'marketing']",Director/Executive,Marketing
 48,38.0,Male,PhD,Senior Scientist,11.0,"['senior', 'scientist']",Senior,Other
-49,25.0,Male,Bachelor's,Help Desk Analyst,0.0,"['help', 'desk', 'analyst']",Other,Finance
-50,51.0,Female,Bachelor's,Customer Service Manager,22.0,"['customer', 'service', 'manager']",Manager,Support
+49,25.0,Male,Bachelor's,Help Desk Analyst,0.0,"['help', 'desk', 'analyst']",Other,Other
+50,51.0,Female,Bachelor's,Customer Service Manager,22.0,"['customer', 'service', 'manager']",Senior,Support
 51,33.0,Male,Master's,,7.0,[],Other,Other
-52,40.0,Female,Bachelor's,Event Coordinator,12.0,"['event', 'coordinator']",Mid,Other
-53,47.0,Male,Master's,VP of Finance,19.0,"['vp', 'finance']",Director,Finance
+52,40.0,Female,Bachelor's,Event Coordinator,12.0,"['event', 'coordinator']",Semi Senior,Other
+53,47.0,Male,Master's,VP of Finance,19.0,"['vp', 'finance']",Director/Executive,Finance
 54,29.0,Female,Bachelor's,Graphic Designer,3.0,"['graphic', 'designer']",Other,Design
-55,36.0,Male,Bachelor's,Sales Manager,9.0,"['sales', 'manager']",Manager,Sales
+55,36.0,Male,Bachelor's,Sales Manager,9.0,"['sales', 'manager']",Senior,Sales
 56,27.0,Female,Master's,UX Researcher,2.0,"['ux', 'researcher']",Other,Design
 57,43.0,Male,PhD,Senior Engineer,17.0,"['senior', 'engineer']",Senior,Engineering
-58,30.0,Female,Bachelor's,Social Media Manager,4.0,"['social', 'media', 'manager']",Manager,Marketing
-59,35.0,Male,Master's,Product Manager,7.0,"['product', 'manager']",Manager,Other
+58,30.0,Female,Bachelor's,Social Media Manager,4.0,"['social', 'media', 'manager']",Senior,Marketing
+59,35.0,Male,Master's,Product Manager,7.0,"['product', 'manager']",Senior,Other
 60,51.0,Female,Master's,,23.0,[],Other,Other
-61,29.0,Male,Bachelor's,Marketing Analyst,3.0,"['marketing', 'analyst']",Other,Finance
-62,40.0,Female,Bachelor's,HR Manager,12.0,"['hr', 'manager']",Manager,HR
+61,29.0,Male,Bachelor's,Marketing Analyst,3.0,"['marketing', 'analyst']",Other,Marketing
+62,40.0,Female,Bachelor's,HR Manager,12.0,"['hr', 'manager']",Senior,HR
 63,47.0,Male,PhD,Senior Data Scientist,21.0,"['senior', 'data', 'scientist']",Senior,Engineering
 64,26.0,Male,Bachelor's,Junior Accountant,1.0,"['junior', 'accountant']",Junior,Finance
-65,38.0,Female,Master's,Digital Marketing Manager,10.0,"['digital', 'marketing', 'manager']",Manager,Marketing
-66,46.0,Male,Bachelor's,IT Manager,19.0,['manager'],Manager,Other
+65,38.0,Female,Master's,Digital Marketing Manager,10.0,"['digital', 'marketing', 'manager']",Senior,Marketing
+66,46.0,Male,Bachelor's,IT Manager,19.0,['manager'],Senior,Other
 67,31.0,Female,Bachelor's,Customer Service Representative,5.0,"['customer', 'service', 'representative']",Other,Sales
-68,34.0,Male,Master's,Business Development Manager,8.0,"['business', 'development', 'manager']",Manager,Sales
+68,34.0,Male,Master's,Business Development Manager,8.0,"['business', 'development', 'manager']",Senior,Sales
 69,49.0,Female,Master's,Senior Financial Analyst,18.0,"['senior', 'financial', 'analyst']",Senior,Finance
 70,33.0,Male,Bachelor's,Web Developer,6.0,"['web', 'developer']",Other,Engineering
 71,39.0,Female,Bachelor's,Recruiter,11.0,['recruiter'],Other,HR
-72,45.0,Male,PhD,Research Director,16.0,"['research', 'director']",Director,Other
-73,28.0,Male,Bachelor's,Technical Support Specialist,2.0,"['technical', 'support', 'specialist']",Mid,Support
-74,42.0,Female,Master's,Creative Director,14.0,"['creative', 'director']",Director,Other
-75,37.0,Male,Bachelor's,Project Manager,10.0,"['project', 'manager']",Manager,Operations
-76,50.0,Female,Bachelor's,Operations Manager,22.0,"['operations', 'manager']",Manager,Operations
+72,45.0,Male,PhD,Research Director,16.0,"['research', 'director']",Director/Executive,Other
+73,28.0,Male,Bachelor's,Technical Support Specialist,2.0,"['technical', 'support', 'specialist']",Semi Senior,Support
+74,42.0,Female,Master's,Creative Director,14.0,"['creative', 'director']",Director/Executive,Other
+75,37.0,Male,Bachelor's,Project Manager,10.0,"['project', 'manager']",Senior,Operations
+76,50.0,Female,Bachelor's,Operations Manager,22.0,"['operations', 'manager']",Senior,Operations
 77,32.0,Male,Master's,Senior Software Engineer,6.0,"['senior', 'software', 'engineer']",Senior,Engineering
-78,48.0,Female,Master's,Human Resources Director,20.0,"['human', 'resources', 'director']",Director,HR
-79,30.0,Female,Bachelor's,Content Marketing Manager,3.0,"['content', 'marketing', 'manager']",Manager,Marketing
+78,48.0,Female,Master's,Human Resources Director,20.0,"['human', 'resources', 'director']",Director/Executive,HR
+79,30.0,Female,Bachelor's,Content Marketing Manager,3.0,"['content', 'marketing', 'manager']",Senior,Marketing
 80,36.0,Male,Bachelor's,Technical Recruiter,8.0,"['technical', 'recruiter']",Other,HR
-81,41.0,Female,Master's,Data Analyst,13.0,"['data', 'analyst']",Other,Finance
+81,41.0,Female,Master's,Data Analyst,13.0,"['data', 'analyst']",Other,Engineering
 82,25.0,Male,Bachelor's,Sales Representative,0.0,"['sales', 'representative']",Other,Sales
-83,52.0,Male,PhD,Chief Technology Officer,24.0,"['chief', 'technology', 'officer']",Director,Other
+83,52.0,Male,PhD,Chief Technology Officer,24.0,"['chief', 'technology', 'officer']",Director/Executive,Other
 84,29.0,Female,Bachelor's,Junior Designer,2.0,"['junior', 'designer']",Junior,Design
 85,34.0,Female,Master's,Financial Advisor,10.0,"['financial', 'advisor']",Other,Finance
-86,27.0,Male,Bachelor's,Junior Account Manager,2.0,"['junior', 'account', 'manager']",Manager,Sales
+86,27.0,Male,Bachelor's,Junior Account Manager,2.0,"['junior', 'account', 'manager']",Junior,Sales
 87,40.0,Female,Bachelor's,HR Generalist,15.0,"['hr', 'generalist']",Other,HR
-88,46.0,Male,Master's,Senior Project Manager,21.0,"['senior', 'project', 'manager']",Manager,Operations
-89,31.0,Female,Bachelor's,Marketing Coordinator,6.0,"['marketing', 'coordinator']",Mid,Marketing
+88,46.0,Male,Master's,Senior Project Manager,21.0,"['senior', 'project', 'manager']",Senior,Operations
+89,31.0,Female,Bachelor's,Marketing Coordinator,6.0,"['marketing', 'coordinator']",Semi Senior,Marketing
 90,36.0,Male,PhD,Principal Scientist,11.0,"['principal', 'scientist']",Senior,Other
-91,29.0,Female,Bachelor's,Sales Associate,3.0,"['sales', 'associate']",Mid,Sales
-92,43.0,Male,Bachelor's,Supply Chain Manager,18.0,"['supply', 'chain', 'manager']",Manager,Operations
-93,52.0,Female,Master's,Senior Marketing Manager,25.0,"['senior', 'marketing', 'manager']",Manager,Marketing
-94,33.0,Male,Bachelor's,Business Analyst,7.0,"['business', 'analyst']",Other,Finance
-95,39.0,Female,Bachelor's,Training Specialist,12.0,"['training', 'specialist']",Mid,Other
+91,29.0,Female,Bachelor's,Sales Associate,3.0,"['sales', 'associate']",Semi Senior,Sales
+92,43.0,Male,Bachelor's,Supply Chain Manager,18.0,"['supply', 'chain', 'manager']",Senior,Operations
+93,52.0,Female,Master's,Senior Marketing Manager,25.0,"['senior', 'marketing', 'manager']",Senior,Marketing
+94,33.0,Male,Bachelor's,Business Analyst,7.0,"['business', 'analyst']",Other,Sales
+95,39.0,Female,Bachelor's,Training Specialist,12.0,"['training', 'specialist']",Semi Senior,Other
 96,47.0,Male,PhD,Research Scientist,22.0,"['research', 'scientist']",Other,Other
 97,26.0,Male,Bachelor's,Junior Software Developer,1.0,"['junior', 'software', 'developer']",Junior,Engineering
-98,38.0,Female,Master's,Public Relations Manager,10.0,"['public', 'relations', 'manager']",Manager,Other
-99,45.0,Male,Bachelor's,Operations Analyst,20.0,"['operations', 'analyst']",Other,Finance
-100,31.0,Female,Bachelor's,Event Coordinator,5.0,"['event', 'coordinator']",Mid,Other
-101,35.0,Male,Master's,Product Marketing Manager,8.0,"['product', 'marketing', 'manager']",Manager,Marketing
-102,49.0,Female,Master's,Senior HR Manager,19.0,"['senior', 'hr', 'manager']",Manager,HR
+98,38.0,Female,Master's,Public Relations Manager,10.0,"['public', 'relations', 'manager']",Senior,Other
+99,45.0,Male,Bachelor's,Operations Analyst,20.0,"['operations', 'analyst']",Other,Operations
+100,31.0,Female,Bachelor's,Event Coordinator,5.0,"['event', 'coordinator']",Semi Senior,Other
+101,35.0,Male,Master's,Product Marketing Manager,8.0,"['product', 'marketing', 'manager']",Senior,Marketing
+102,49.0,Female,Master's,Senior HR Manager,19.0,"['senior', 'hr', 'manager']",Senior,HR
 103,33.0,Male,Bachelor's,Junior Web Developer,5.0,"['junior', 'web', 'developer']",Junior,Engineering
-104,39.0,Female,Master's,Senior Project Coordinator,13.0,"['senior', 'project', 'coordinator']",Mid,Operations
-105,44.0,Male,PhD,Chief Data Officer,16.0,"['chief', 'data', 'officer']",Director,Engineering
+104,39.0,Female,Master's,Senior Project Coordinator,13.0,"['senior', 'project', 'coordinator']",Senior,Operations
+105,44.0,Male,PhD,Chief Data Officer,16.0,"['chief', 'data', 'officer']",Director/Executive,Engineering
 106,30.0,Female,Bachelor's,Digital Content Producer,3.0,"['digital', 'content', 'producer']",Other,Marketing
-107,36.0,Male,Bachelor's,IT Support Specialist,7.0,"['support', 'specialist']",Mid,Support
-108,41.0,Female,Master's,Senior Marketing Analyst,14.0,"['senior', 'marketing', 'analyst']",Senior,Finance
-109,28.0,Male,Bachelor's,Customer Success Manager,2.0,"['customer', 'success', 'manager']",Manager,Sales
+107,36.0,Male,Bachelor's,IT Support Specialist,7.0,"['support', 'specialist']",Semi Senior,Support
+108,41.0,Female,Master's,Senior Marketing Analyst,14.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
+109,28.0,Male,Bachelor's,Customer Success Manager,2.0,"['customer', 'success', 'manager']",Senior,Sales
 110,42.0,Female,Master's,Senior Graphic Designer,15.0,"['senior', 'graphic', 'designer']",Senior,Design
-111,37.0,Male,Bachelor's,Software Project Manager,9.0,"['software', 'project', 'manager']",Manager,Operations
-112,50.0,Female,Bachelor's,Supply Chain Analyst,22.0,"['supply', 'chain', 'analyst']",Other,Finance
-113,32.0,Male,Master's,Senior Business Analyst,6.0,"['senior', 'business', 'analyst']",Senior,Finance
-114,23.0,Female,Bachelor's,Junior Marketing Analyst,0.5,"['junior', 'marketing', 'analyst']",Junior,Finance
+111,37.0,Male,Bachelor's,Software Project Manager,9.0,"['software', 'project', 'manager']",Senior,Operations
+112,50.0,Female,Bachelor's,Supply Chain Analyst,22.0,"['supply', 'chain', 'analyst']",Other,Operations
+113,32.0,Male,Master's,Senior Business Analyst,6.0,"['senior', 'business', 'analyst']",Senior,Sales
+114,23.0,Female,Bachelor's,Junior Marketing Analyst,0.5,"['junior', 'marketing', 'analyst']",Junior,Marketing
 115,31.0,Male,Master's,Senior Financial Analyst,6.0,"['senior', 'financial', 'analyst']",Senior,Finance
-116,40.0,Female,Bachelor's,Office Manager,15.0,"['office', 'manager']",Manager,Other
+116,40.0,Female,Bachelor's,Office Manager,15.0,"['office', 'manager']",Senior,Other
 117,48.0,Male,PhD,Principal Engineer,20.0,"['principal', 'engineer']",Senior,Engineering
 118,29.0,Female,Bachelor's,Junior HR Generalist,3.0,"['junior', 'hr', 'generalist']",Junior,HR
-119,35.0,Male,Master's,Senior Product Manager,10.0,"['senior', 'product', 'manager']",Manager,Other
-120,42.0,Female,Bachelor's,Sales Manager,17.0,"['sales', 'manager']",Manager,Sales
-121,53.0,Male,Master's,Director of Marketing,25.0,"['director', 'marketing']",Director,Marketing
-122,33.0,Female,Bachelor's,Junior Operations Analyst,5.0,"['junior', 'operations', 'analyst']",Junior,Finance
-123,38.0,Male,Bachelor's,Customer Service Manager,11.0,"['customer', 'service', 'manager']",Manager,Support
+119,35.0,Male,Master's,Senior Product Manager,10.0,"['senior', 'product', 'manager']",Senior,Other
+120,42.0,Female,Bachelor's,Sales Manager,17.0,"['sales', 'manager']",Senior,Sales
+121,53.0,Male,Master's,Director of Marketing,25.0,"['director', 'marketing']",Director/Executive,Marketing
+122,33.0,Female,Bachelor's,Junior Operations Analyst,5.0,"['junior', 'operations', 'analyst']",Junior,Operations
+123,38.0,Male,Bachelor's,Customer Service Manager,11.0,"['customer', 'service', 'manager']",Senior,Support
 124,44.0,Female,PhD,Senior Scientist,16.0,"['senior', 'scientist']",Senior,Other
 125,26.0,Male,Bachelor's,Junior Accountant,2.0,"['junior', 'accountant']",Junior,Finance
 126,37.0,Female,Master's,Senior HR Generalist,9.0,"['senior', 'hr', 'generalist']",Senior,HR
-127,45.0,Male,Bachelor's,Sales Operations Manager,18.0,"['sales', 'operations', 'manager']",Manager,Operations
-128,32.0,Female,Bachelor's,Marketing Coordinator,4.0,"['marketing', 'coordinator']",Mid,Marketing
+127,45.0,Male,Bachelor's,Sales Operations Manager,18.0,"['sales', 'operations', 'manager']",Senior,Operations
+128,32.0,Female,Bachelor's,Marketing Coordinator,4.0,"['marketing', 'coordinator']",Semi Senior,Marketing
 129,34.0,Male,Master's,Senior Software Developer,8.0,"['senior', 'software', 'developer']",Senior,Engineering
-130,50.0,Female,Master's,Director of Operations,21.0,"['director', 'operations']",Director,Operations
+130,50.0,Female,Master's,Director of Operations,21.0,"['director', 'operations']",Director/Executive,Operations
 131,29.0,Male,Bachelor's,Junior Web Designer,3.0,"['junior', 'web', 'designer']",Junior,Design
-132,40.0,Female,Master's,Senior Training Specialist,12.0,"['senior', 'training', 'specialist']",Mid,Other
+132,40.0,Female,Master's,Senior Training Specialist,12.0,"['senior', 'training', 'specialist']",Senior,Other
 133,47.0,Male,PhD,Senior Research Scientist,22.0,"['senior', 'research', 'scientist']",Senior,Other
 134,27.0,Male,Bachelor's,Junior Sales Representative,1.0,"['junior', 'sales', 'representative']",Junior,Sales
 135,39.0,Female,Bachelor's,Administrative Assistant,10.0,"['administrative', 'assistant']",Other,Other
-136,46.0,Male,Master's,Senior Project Manager,19.0,"['senior', 'project', 'manager']",Manager,Operations
-137,30.0,Female,Bachelor's,Junior Marketing Manager,4.0,"['junior', 'marketing', 'manager']",Manager,Marketing
-138,36.0,Male,Bachelor's,Junior Data Analyst,7.0,"['junior', 'data', 'analyst']",Junior,Finance
-139,43.0,Female,,Senior Product Marketing Manager,14.0,"['senior', 'product', 'marketing', 'manager']",Manager,Marketing
-140,28.0,Male,Bachelor's,Junior Business Analyst,2.0,"['junior', 'business', 'analyst']",Junior,Finance
-141,41.0,Female,Master's,Senior Marketing Manager,13.0,"['senior', 'marketing', 'manager']",Manager,Marketing
+136,46.0,Male,Master's,Senior Project Manager,19.0,"['senior', 'project', 'manager']",Senior,Operations
+137,30.0,Female,Bachelor's,Junior Marketing Manager,4.0,"['junior', 'marketing', 'manager']",Junior,Marketing
+138,36.0,Male,Bachelor's,Junior Data Analyst,7.0,"['junior', 'data', 'analyst']",Junior,Engineering
+139,43.0,Female,,Senior Product Marketing Manager,14.0,"['senior', 'product', 'marketing', 'manager']",Senior,Marketing
+140,28.0,Male,Bachelor's,Junior Business Analyst,2.0,"['junior', 'business', 'analyst']",Junior,Sales
+141,41.0,Female,Master's,Senior Marketing Manager,13.0,"['senior', 'marketing', 'manager']",Senior,Marketing
 142,33.0,Male,Bachelor's,Junior Software Developer,5.0,"['junior', 'software', 'developer']",Junior,Engineering
-143,47.0,Male,Bachelor's,Senior Sales Manager,20.0,"['senior', 'sales', 'manager']",Manager,Sales
-144,25.0,Female,Master's,Junior Marketing Specialist,1.5,"['junior', 'marketing', 'specialist']",Mid,Marketing
-145,34.0,Male,Bachelor's,Senior Business Analyst,8.0,"['senior', 'business', 'analyst']",Senior,Finance
+143,47.0,Male,Bachelor's,Senior Sales Manager,20.0,"['senior', 'sales', 'manager']",Senior,Sales
+144,25.0,Female,Master's,Junior Marketing Specialist,1.5,"['junior', 'marketing', 'specialist']",Junior,Marketing
+145,34.0,Male,Bachelor's,Senior Business Analyst,8.0,"['senior', 'business', 'analyst']",Senior,Sales
 146,42.0,Female,PhD,Senior Data Scientist,16.0,"['senior', 'data', 'scientist']",Senior,Engineering
-147,31.0,Male,Bachelor's,Junior Project Manager,4.0,"['junior', 'project', 'manager']",Manager,Operations
+147,31.0,Male,Bachelor's,Junior Project Manager,4.0,"['junior', 'project', 'manager']",Junior,Operations
 148,38.0,Female,Bachelor's,Senior Accountant,10.0,"['senior', 'accountant']",Senior,Finance
-149,45.0,Male,Master's,Director of Sales,19.0,"['director', 'sales']",Director,Sales
+149,45.0,Male,Master's,Director of Sales,19.0,"['director', 'sales']",Director/Executive,Sales
 150,29.0,Female,Bachelor's,Junior Recruiter,3.0,"['junior', 'recruiter']",Junior,HR
-151,36.0,Male,Master's,Senior Business Development Manager,11.0,"['senior', 'business', 'development', 'manager']",Manager,Sales
+151,36.0,Male,Master's,Senior Business Development Manager,11.0,"['senior', 'business', 'development', 'manager']",Senior,Sales
 152,43.0,Female,PhD,Senior Product Designer,18.0,"['senior', 'product', 'designer']",Senior,Design
-153,26.0,Male,Bachelor's,Junior Customer Support Specialist,2.0,"['junior', 'customer', 'support', 'specialist']",Mid,Support
-154,37.0,Female,Master's,Senior Marketing Analyst,9.0,"['senior', 'marketing', 'analyst']",Senior,Finance
-155,44.0,Male,Bachelor's,Senior IT Support Specialist,14.0,"['senior', 'support', 'specialist']",Mid,Support
+153,26.0,Male,Bachelor's,Junior Customer Support Specialist,2.0,"['junior', 'customer', 'support', 'specialist']",Junior,Support
+154,37.0,Female,Master's,Senior Marketing Analyst,9.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
+155,44.0,Male,Bachelor's,Senior IT Support Specialist,14.0,"['senior', 'support', 'specialist']",Senior,Support
 156,32.0,Female,Bachelor's,Junior Financial Analyst,5.0,"['junior', 'financial', 'analyst']",Junior,Finance
-157,33.0,Male,Master's,Senior Operations Manager,7.0,"['senior', 'operations', 'manager']",Manager,Operations
-158,51.0,Female,PhD,Director of Human Resources,23.0,"['director', 'human', 'resources']",Director,HR
+157,33.0,Male,Master's,Senior Operations Manager,7.0,"['senior', 'operations', 'manager']",Senior,Operations
+158,51.0,Female,PhD,Director of Human Resources,23.0,"['director', 'human', 'resources']",Director/Executive,HR
 159,28.0,Male,Bachelor's,Junior Software Engineer,2.0,"['junior', 'software', 'engineer']",Junior,Engineering
 160,39.0,Female,Bachelor's,Senior Sales Representative,12.0,"['senior', 'sales', 'representative']",Senior,Sales
-161,48.0,Male,Master's,Director of Product Management,21.0,"['director', 'product', 'management']",Director,Other
+161,48.0,Male,Master's,Director of Product Management,21.0,"['director', 'product', 'management']",Director/Executive,Other
 162,30.0,Female,Bachelor's,Junior Copywriter,3.0,"['junior', 'copywriter']",Junior,Writing
-163,35.0,Male,Bachelor's,Senior Marketing Coordinator,7.0,"['senior', 'marketing', 'coordinator']",Mid,Marketing
-164,41.0,Female,Master's,Senior Human Resources Manager,13.0,"['senior', 'human', 'resources', 'manager']",Manager,HR
-165,27.0,Male,Bachelor's,Junior Business Development Associate,1.5,"['junior', 'business', 'development', 'associate']",Mid,Sales
-166,40.0,Female,Bachelor's,Senior Account Manager,14.0,"['senior', 'account', 'manager']",Manager,Sales
+163,35.0,Male,Bachelor's,Senior Marketing Coordinator,7.0,"['senior', 'marketing', 'coordinator']",Senior,Marketing
+164,41.0,Female,Master's,Senior Human Resources Manager,13.0,"['senior', 'human', 'resources', 'manager']",Senior,HR
+165,27.0,Male,Bachelor's,Junior Business Development Associate,1.5,"['junior', 'business', 'development', 'associate']",Junior,Sales
+166,40.0,Female,Bachelor's,Senior Account Manager,14.0,"['senior', 'account', 'manager']",Senior,Sales
 167,46.0,Male,PhD,Senior Researcher,18.0,"['senior', 'researcher']",Senior,Other
-168,31.0,Female,Bachelor's,Junior HR Coordinator,4.0,"['junior', 'hr', 'coordinator']",Mid,HR
+168,31.0,Female,Bachelor's,Junior HR Coordinator,4.0,"['junior', 'hr', 'coordinator']",Junior,HR
 169,34.0,Male,Master's,Senior Software Engineer,9.0,"['senior', 'software', 'engineer']",Senior,Engineering
-170,50.0,Female,Master's,Director of Finance,20.0,"['director', 'finance']",Director,Finance
-171,29.0,Male,Bachelor's,Junior Marketing Coordinator,2.0,"['junior', 'marketing', 'coordinator']",Mid,Marketing
+170,50.0,Female,Master's,Director of Finance,20.0,"['director', 'finance']",Director/Executive,Finance
+171,29.0,Male,Bachelor's,Junior Marketing Coordinator,2.0,"['junior', 'marketing', 'coordinator']",Junior,Marketing
 172,,,,,,[],Other,Other
-173,43.0,Male,Bachelor's,Senior Project Manager,16.0,"['senior', 'project', 'manager']",Manager,Operations
+173,43.0,Male,Bachelor's,Senior Project Manager,16.0,"['senior', 'project', 'manager']",Senior,Operations
 174,26.0,Female,Master's,Junior Data Scientist,1.5,"['junior', 'data', 'scientist']",Junior,Engineering
-175,35.0,Male,Bachelor's,Senior Operations Analyst,7.0,"['senior', 'operations', 'analyst']",Senior,Finance
-176,42.0,Female,PhD,Senior Marketing Manager,18.0,"['senior', 'marketing', 'manager']",Manager,Marketing
+175,35.0,Male,Bachelor's,Senior Operations Analyst,7.0,"['senior', 'operations', 'analyst']",Senior,Operations
+176,42.0,Female,PhD,Senior Marketing Manager,18.0,"['senior', 'marketing', 'manager']",Senior,Marketing
 177,31.0,Male,Bachelor's,Junior Accountant,4.0,"['junior', 'accountant']",Junior,Finance
-178,38.0,Female,Bachelor's,Senior Human Resources Coordinator,10.0,"['senior', 'human', 'resources', 'coordinator']",Mid,HR
-179,46.0,Male,Master's,Director of Operations,20.0,"['director', 'operations']",Director,Operations
+178,38.0,Female,Bachelor's,Senior Human Resources Coordinator,10.0,"['senior', 'human', 'resources', 'coordinator']",Senior,HR
+179,46.0,Male,Master's,Director of Operations,20.0,"['director', 'operations']",Director/Executive,Operations
 180,29.0,Female,Bachelor's,Junior Sales Representative,2.0,"['junior', 'sales', 'representative']",Junior,Sales
-181,37.0,Male,Master's,Senior Business Analyst,9.0,"['senior', 'business', 'analyst']",Senior,Finance
+181,37.0,Male,Master's,Senior Business Analyst,9.0,"['senior', 'business', 'analyst']",Senior,Sales
 182,44.0,Female,PhD,Senior UX Designer,15.0,"['senior', 'ux', 'designer']",Senior,Design
-183,27.0,Male,Bachelor's,Junior Product Manager,2.0,"['junior', 'product', 'manager']",Manager,Other
-184,36.0,Female,Bachelor's,Senior Marketing Specialist,8.0,"['senior', 'marketing', 'specialist']",Mid,Marketing
-185,43.0,Male,Bachelor's,Senior IT Project Manager,14.0,"['senior', 'project', 'manager']",Manager,Operations
+183,27.0,Male,Bachelor's,Junior Product Manager,2.0,"['junior', 'product', 'manager']",Junior,Other
+184,36.0,Female,Bachelor's,Senior Marketing Specialist,8.0,"['senior', 'marketing', 'specialist']",Senior,Marketing
+185,43.0,Male,Bachelor's,Senior IT Project Manager,14.0,"['senior', 'project', 'manager']",Senior,Operations
 186,33.0,Female,Master's,Senior Financial Analyst,6.0,"['senior', 'financial', 'analyst']",Senior,Finance
-187,34.0,Male,Bachelor's,Senior Quality Assurance Analyst,9.0,"['senior', 'quality', 'assurance', 'analyst']",Senior,Finance
-188,50.0,Female,PhD,Director of Sales and Marketing,22.0,"['director', 'sales', 'marketing']",Director,Marketing
-189,28.0,Male,Bachelor's,Junior Operations Analyst,1.5,"['junior', 'operations', 'analyst']",Junior,Finance
-190,39.0,Female,Bachelor's,Senior Account Executive,12.0,"['senior', 'account', 'executive']",Mid,Sales
-191,47.0,Male,Master's,Director of Business Development,19.0,"['director', 'business', 'development']",Director,Sales
-192,30.0,Female,Bachelor's,Junior Social Media Manager,3.0,"['junior', 'social', 'media', 'manager']",Manager,Marketing
-193,34.0,Male,Bachelor's,Senior Product Manager,7.0,"['senior', 'product', 'manager']",Manager,Other
-194,40.0,Female,Master's,Senior Human Resources Specialist,13.0,"['senior', 'human', 'resources', 'specialist']",Mid,HR
-195,28.0,Male,Bachelor's,Junior Business Analyst,2.0,"['junior', 'business', 'analyst']",Junior,Finance
-196,41.0,Female,Bachelor's,Senior Marketing Coordinator,11.0,"['senior', 'marketing', 'coordinator']",Mid,Marketing
-197,45.0,Male,PhD,Senior Data Analyst,17.0,"['senior', 'data', 'analyst']",Senior,Finance
-198,32.0,Female,Bachelor's,Junior Account Manager,5.0,"['junior', 'account', 'manager']",Manager,Sales
+187,34.0,Male,Bachelor's,Senior Quality Assurance Analyst,9.0,"['senior', 'quality', 'assurance', 'analyst']",Senior,Other
+188,50.0,Female,PhD,Director of Sales and Marketing,22.0,"['director', 'sales', 'marketing']",Director/Executive,Marketing
+189,28.0,Male,Bachelor's,Junior Operations Analyst,1.5,"['junior', 'operations', 'analyst']",Junior,Operations
+190,39.0,Female,Bachelor's,Senior Account Executive,12.0,"['senior', 'account', 'executive']",Senior,Sales
+191,47.0,Male,Master's,Director of Business Development,19.0,"['director', 'business', 'development']",Director/Executive,Sales
+192,30.0,Female,Bachelor's,Junior Social Media Manager,3.0,"['junior', 'social', 'media', 'manager']",Junior,Marketing
+193,34.0,Male,Bachelor's,Senior Product Manager,7.0,"['senior', 'product', 'manager']",Senior,Other
+194,40.0,Female,Master's,Senior Human Resources Specialist,13.0,"['senior', 'human', 'resources', 'specialist']",Senior,HR
+195,28.0,Male,Bachelor's,Junior Business Analyst,2.0,"['junior', 'business', 'analyst']",Junior,Sales
+196,41.0,Female,Bachelor's,Senior Marketing Coordinator,11.0,"['senior', 'marketing', 'coordinator']",Senior,Marketing
+197,45.0,Male,PhD,Senior Data Analyst,17.0,"['senior', 'data', 'analyst']",Senior,Engineering
+198,32.0,Female,Bachelor's,Junior Account Manager,5.0,"['junior', 'account', 'manager']",Junior,Sales
 199,35.0,Male,Master's,Senior Software Developer,9.0,"['senior', 'software', 'developer']",Senior,Engineering
-200,49.0,Female,Master's,Director of Human Capital,21.0,"['director', 'human', 'capital']",Director,HR
-201,30.0,Male,Bachelor's,Junior Advertising Coordinator,3.0,"['junior', 'advertising', 'coordinator']",Mid,Marketing
-202,44.0,Male,Bachelor's,Senior Sales Manager,16.0,"['senior', 'sales', 'manager']",Manager,Sales
+200,49.0,Female,Master's,Director of Human Capital,21.0,"['director', 'human', 'capital']",Director/Executive,HR
+201,30.0,Male,Bachelor's,Junior Advertising Coordinator,3.0,"['junior', 'advertising', 'coordinator']",Junior,Marketing
+202,44.0,Male,Bachelor's,Senior Sales Manager,16.0,"['senior', 'sales', 'manager']",Senior,Sales
 203,27.0,Female,Master's,Junior UX Designer,1.5,"['junior', 'ux', 'designer']",Junior,Design
 204,36.0,Male,Bachelor's,Senior Accountant,7.0,"['senior', 'accountant']",Senior,Finance
-205,41.0,Female,PhD,Senior Marketing Director,17.0,"['senior', 'marketing', 'director']",Director,Marketing
+205,41.0,Female,PhD,Senior Marketing Director,17.0,"['senior', 'marketing', 'director']",Senior,Marketing
 206,31.0,Male,Bachelor's,Junior HR Generalist,4.0,"['junior', 'hr', 'generalist']",Junior,HR
-207,39.0,Female,Bachelor's,Senior Operations Manager,10.0,"['senior', 'operations', 'manager']",Manager,Operations
-208,47.0,Male,Master's,Director of Finance,20.0,"['director', 'finance']",Director,Finance
-209,30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,"['junior', 'marketing', 'coordinator']",Mid,Marketing
+207,39.0,Female,Bachelor's,Senior Operations Manager,10.0,"['senior', 'operations', 'manager']",Senior,Operations
+208,47.0,Male,Master's,Director of Finance,20.0,"['director', 'finance']",Director/Executive,Finance
+209,30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,"['junior', 'marketing', 'coordinator']",Junior,Marketing
 210,38.0,Male,Master's,Senior IT Consultant,9.0,"['senior', 'consultant']",Senior,Other
 211,45.0,Female,PhD,Senior Product Designer,15.0,"['senior', 'product', 'designer']",Senior,Design
-212,28.0,Male,Bachelor's,Junior Business Development Associate,2.0,"['junior', 'business', 'development', 'associate']",Mid,Sales
-213,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Finance
+212,28.0,Male,Bachelor's,Junior Business Development Associate,2.0,"['junior', 'business', 'development', 'associate']",Junior,Sales
+213,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
 214,44.0,Male,Bachelor's,Senior Software Engineer,14.0,"['senior', 'software', 'engineer']",Senior,Engineering
 215,34.0,Female,Master's,Senior Financial Advisor,6.0,"['senior', 'financial', 'advisor']",Senior,Finance
-216,35.0,Male,Bachelor's,Senior Project Coordinator,9.0,"['senior', 'project', 'coordinator']",Mid,Operations
-217,50.0,Female,PhD,Director of Operations,22.0,"['director', 'operations']",Director,Operations
-218,29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,"['junior', 'business', 'operations', 'analyst']",Junior,Finance
+216,35.0,Male,Bachelor's,Senior Project Coordinator,9.0,"['senior', 'project', 'coordinator']",Senior,Operations
+217,50.0,Female,PhD,Director of Operations,22.0,"['director', 'operations']",Director/Executive,Operations
+218,29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,"['junior', 'business', 'operations', 'analyst']",Junior,Operations
 219,40.0,,Bachelor's,Senior Sales Representative,12.0,"['senior', 'sales', 'representative']",Senior,Sales
-220,48.0,Male,Master's,Director of Marketing,19.0,"['director', 'marketing']",Director,Marketing
-221,,Female,Bachelor's,Junior Social Media Specialist,3.0,"['junior', 'social', 'media', 'specialist']",Mid,Marketing
-222,33.0,Male,Bachelor's,Senior Product Development Manager,7.0,"['senior', 'product', 'development', 'manager']",Manager,Other
-223,42.0,Female,Master's,Senior Human Resources Manager,13.0,"['senior', 'human', 'resources', 'manager']",Manager,HR
+220,48.0,Male,Master's,Director of Marketing,19.0,"['director', 'marketing']",Director/Executive,Marketing
+221,,Female,Bachelor's,Junior Social Media Specialist,3.0,"['junior', 'social', 'media', 'specialist']",Junior,Marketing
+222,33.0,Male,Bachelor's,Senior Product Development Manager,7.0,"['senior', 'product', 'development', 'manager']",Senior,Other
+223,42.0,Female,Master's,Senior Human Resources Manager,13.0,"['senior', 'human', 'resources', 'manager']",Senior,HR
 224,28.0,Male,Bachelor's,Junior Financial Analyst,2.0,"['junior', 'financial', 'analyst']",Junior,Finance
-225,40.0,,Bachelor's,Senior Marketing Manager,11.0,"['senior', 'marketing', 'manager']",Manager,Marketing
+225,40.0,,Bachelor's,Senior Marketing Manager,11.0,"['senior', 'marketing', 'manager']",Senior,Marketing
 226,46.0,Male,PhD,Senior Data Scientist,18.0,"['senior', 'data', 'scientist']",Senior,Engineering
-227,33.0,Female,Bachelor's,Junior Operations Manager,5.0,"['junior', 'operations', 'manager']",Manager,Operations
+227,33.0,Female,Bachelor's,Junior Operations Manager,5.0,"['junior', 'operations', 'manager']",Junior,Operations
 228,37.0,Male,Master's,Senior Software Architect,9.0,"['senior', 'software', 'architect']",Senior,Engineering
-229,51.0,Female,Master's,Director of Human Resources,21.0,"['director', 'human', 'resources']",Director,HR
-230,30.0,Male,Bachelor's,Junior Marketing Specialist,3.0,"['junior', 'marketing', 'specialist']",Mid,Marketing
-231,43.0,Male,Bachelor's,Senior Project Manager,15.0,"['senior', 'project', 'manager']",Manager,Operations
+229,51.0,Female,Master's,Director of Human Resources,21.0,"['director', 'human', 'resources']",Director/Executive,HR
+230,30.0,Male,Bachelor's,Junior Marketing Specialist,3.0,"['junior', 'marketing', 'specialist']",Junior,Marketing
+231,43.0,Male,Bachelor's,Senior Project Manager,15.0,"['senior', 'project', 'manager']",Senior,Operations
 232,27.0,Female,Master's,Junior Research Scientist,1.5,"['junior', 'research', 'scientist']",Junior,Other
-233,35.0,Male,Bachelor's,Senior Operations Analyst,8.0,"['senior', 'operations', 'analyst']",Senior,Finance
-234,42.0,Female,PhD,Senior Marketing Manager,13.0,"['senior', 'marketing', 'manager']",Manager,Marketing
+233,35.0,Male,Bachelor's,Senior Operations Analyst,8.0,"['senior', 'operations', 'analyst']",Senior,Operations
+234,42.0,Female,PhD,Senior Marketing Manager,13.0,"['senior', 'marketing', 'manager']",Senior,Marketing
 235,32.0,,Bachelor's,Junior Sales Representative,3.0,"['junior', 'sales', 'representative']",Junior,Sales
 236,37.0,Female,Bachelor's,Senior Financial Analyst,9.0,"['senior', 'financial', 'analyst']",Senior,Finance
 237,45.0,Male,Master's,Senior Software Developer,16.0,"['senior', 'software', 'developer']",Senior,Engineering
-238,33.0,Female,Bachelor's,Junior Operations Analyst,5.0,"['junior', 'operations', 'analyst']",Junior,Finance
-239,39.0,Male,Bachelor's,Senior Marketing Specialist,10.0,"['senior', 'marketing', 'specialist']",Mid,Marketing
-240,44.0,Female,PhD,Senior HR Manager,18.0,"['senior', 'hr', 'manager']",Manager,HR
-241,29.0,Male,Bachelor's,Junior Business Analyst,1.5,"['junior', 'business', 'analyst']",Junior,Finance
-242,38.0,Female,Bachelor's,Senior Product Manager,10.0,"['senior', 'product', 'manager']",Manager,Other
-243,46.0,Male,PhD,Senior Data Analyst,19.0,"['senior', 'data', 'analyst']",Senior,Finance
-244,34.0,Female,Bachelor's,Junior Marketing Analyst,6.0,"['junior', 'marketing', 'analyst']",Junior,Finance
-245,36.0,Male,Bachelor's,Senior Operations Manager,8.0,"['senior', 'operations', 'manager']",Manager,Operations
-246,49.0,Female,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director,Marketing
+238,33.0,Female,Bachelor's,Junior Operations Analyst,5.0,"['junior', 'operations', 'analyst']",Junior,Operations
+239,39.0,Male,Bachelor's,Senior Marketing Specialist,10.0,"['senior', 'marketing', 'specialist']",Senior,Marketing
+240,44.0,Female,PhD,Senior HR Manager,18.0,"['senior', 'hr', 'manager']",Senior,HR
+241,29.0,Male,Bachelor's,Junior Business Analyst,1.5,"['junior', 'business', 'analyst']",Junior,Sales
+242,38.0,Female,Bachelor's,Senior Product Manager,10.0,"['senior', 'product', 'manager']",Senior,Other
+243,46.0,Male,PhD,Senior Data Analyst,19.0,"['senior', 'data', 'analyst']",Senior,Engineering
+244,34.0,Female,Bachelor's,Junior Marketing Analyst,6.0,"['junior', 'marketing', 'analyst']",Junior,Marketing
+245,36.0,Male,Bachelor's,Senior Operations Manager,8.0,"['senior', 'operations', 'manager']",Senior,Operations
+246,49.0,Female,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director/Executive,Marketing
 247,31.0,Male,Bachelor's,Junior Financial Analyst,3.0,"['junior', 'financial', 'analyst']",Junior,Finance
-248,41.0,Female,Bachelor's,Senior Project Coordinator,11.0,"['senior', 'project', 'coordinator']",Mid,Operations
-249,47.0,Male,Master's,Director of Operations,20.0,"['director', 'operations']",Director,Operations
-250,30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,"['junior', 'marketing', 'coordinator']",Mid,Marketing
+248,41.0,Female,Bachelor's,Senior Project Coordinator,11.0,"['senior', 'project', 'coordinator']",Senior,Operations
+249,47.0,Male,Master's,Director of Operations,20.0,"['director', 'operations']",Director/Executive,Operations
+250,30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,"['junior', 'marketing', 'coordinator']",Junior,Marketing
 251,38.0,Male,Master's,Senior IT Consultant,9.0,"['senior', 'consultant']",Senior,Other
 252,45.0,Female,PhD,Senior Product Designer,15.0,"['senior', 'product', 'designer']",Senior,Design
-253,28.0,Male,Bachelor's,Junior Business Development Associate,2.0,"['junior', 'business', 'development', 'associate']",Mid,Sales
-254,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Finance
+253,28.0,Male,Bachelor's,Junior Business Development Associate,2.0,"['junior', 'business', 'development', 'associate']",Junior,Sales
+254,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
 255,44.0,Male,Bachelor's,Senior Software Engineer,14.0,"['senior', 'software', 'engineer']",Senior,Engineering
 256,34.0,Female,Master's,Senior Financial Advisor,6.0,"['senior', 'financial', 'advisor']",Senior,Finance
-257,35.0,Male,Bachelor's,Senior Project Coordinator,9.0,"['senior', 'project', 'coordinator']",Mid,Operations
-258,50.0,Female,PhD,Director of Operations,22.0,"['director', 'operations']",Director,Operations
-259,29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,"['junior', 'business', 'operations', 'analyst']",Junior,Finance
+257,35.0,Male,Bachelor's,Senior Project Coordinator,9.0,"['senior', 'project', 'coordinator']",Senior,Operations
+258,50.0,Female,PhD,Director of Operations,22.0,"['director', 'operations']",Director/Executive,Operations
+259,29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,"['junior', 'business', 'operations', 'analyst']",Junior,Operations
 260,,,,,,[],Other,Other
-261,37.0,Female,,Senior Financial Manager,10.0,"['senior', 'financial', 'manager']",Manager,Finance
+261,37.0,Female,,Senior Financial Manager,10.0,"['senior', 'financial', 'manager']",Senior,Finance
 262,46.0,Male,PhD,Senior Data Scientist,18.0,"['senior', 'data', 'scientist']",Senior,Engineering
-263,31.0,Female,Bachelor's,Junior Marketing Coordinator,3.0,"['junior', 'marketing', 'coordinator']",Mid,Marketing
-264,42.0,Male,Bachelor's,Senior Operations Manager,12.0,"['senior', 'operations', 'manager']",Manager,Operations
+263,31.0,Female,Bachelor's,Junior Marketing Coordinator,3.0,"['junior', 'marketing', 'coordinator']",Junior,Marketing
+264,42.0,Male,Bachelor's,Senior Operations Manager,12.0,"['senior', 'operations', 'manager']",Senior,Operations
 265,29.0,Female,Bachelor's,Junior Sales Representative,1.5,"['junior', 'sales', 'representative']",Junior,Sales
-266,36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,"['senior', 'marketing', 'specialist']",Mid,Marketing
-267,44.0,Female,Master's,Senior HR Specialist,15.0,"['senior', 'hr', 'specialist']",Mid,HR
-268,33.0,Male,Bachelor's,Junior Operations Manager,4.0,"['junior', 'operations', 'manager']",Manager,Operations
-269,39.0,Female,Bachelor's,Senior Marketing Coordinator,9.0,"['senior', 'marketing', 'coordinator']",Mid,Marketing
+266,36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,"['senior', 'marketing', 'specialist']",Senior,Marketing
+267,44.0,Female,Master's,Senior HR Specialist,15.0,"['senior', 'hr', 'specialist']",Senior,HR
+268,33.0,Male,Bachelor's,Junior Operations Manager,4.0,"['junior', 'operations', 'manager']",Junior,Operations
+269,39.0,Female,Bachelor's,Senior Marketing Coordinator,9.0,"['senior', 'marketing', 'coordinator']",Senior,Marketing
 270,45.0,Male,PhD,Senior Data Engineer,16.0,"['senior', 'data', 'engineer']",Senior,Engineering
-271,32.0,Female,Bachelor's,Junior Marketing Manager,4.0,"['junior', 'marketing', 'manager']",Manager,Marketing
+271,32.0,Female,Bachelor's,Junior Marketing Manager,4.0,"['junior', 'marketing', 'manager']",Junior,Marketing
 272,37.0,Male,Bachelor's,Senior Financial Analyst,8.0,"['senior', 'financial', 'analyst']",Senior,Finance
-273,47.0,Female,Master's,Director of Marketing,20.0,"['director', 'marketing']",Director,Marketing
-274,30.0,Male,Bachelor's,Junior Business Analyst,2.0,"['junior', 'business', 'analyst']",Junior,Finance
-275,38.0,Female,Bachelor's,Senior Project Manager,9.0,"['senior', 'project', 'manager']",Manager,Operations
-276,46.0,Male,PhD,Senior Data Analyst,17.0,"['senior', 'data', 'analyst']",Senior,Finance
+273,47.0,Female,Master's,Director of Marketing,20.0,"['director', 'marketing']",Director/Executive,Marketing
+274,30.0,Male,Bachelor's,Junior Business Analyst,2.0,"['junior', 'business', 'analyst']",Junior,Sales
+275,38.0,Female,Bachelor's,Senior Project Manager,9.0,"['senior', 'project', 'manager']",Senior,Operations
+276,46.0,Male,PhD,Senior Data Analyst,17.0,"['senior', 'data', 'analyst']",Senior,Engineering
 277,34.0,Female,Bachelor's,Junior Financial Analyst,5.0,"['junior', 'financial', 'analyst']",Junior,Finance
-278,36.0,Male,Bachelor's,Senior Product Manager,8.0,"['senior', 'product', 'manager']",Manager,Other
-279,49.0,Female,Master's,Director of Operations,21.0,"['director', 'operations']",Director,Operations
-280,31.0,Male,Bachelor's,Junior Operations Analyst,3.0,"['junior', 'operations', 'analyst']",Junior,Finance
-281,41.0,Female,Bachelor's,Senior Project Coordinator,11.0,"['senior', 'project', 'coordinator']",Mid,Operations
-282,47.0,Male,Master's,Director of Marketing,19.0,"['director', 'marketing']",Director,Marketing
-283,29.0,Female,Bachelor's,Junior Business Development Associate,1.5,"['junior', 'business', 'development', 'associate']",Mid,Sales
-284,35.0,Male,Bachelor's,Senior Financial Manager,9.0,"['senior', 'financial', 'manager']",Manager,Finance
+278,36.0,Male,Bachelor's,Senior Product Manager,8.0,"['senior', 'product', 'manager']",Senior,Other
+279,49.0,Female,Master's,Director of Operations,21.0,"['director', 'operations']",Director/Executive,Operations
+280,31.0,Male,Bachelor's,Junior Operations Analyst,3.0,"['junior', 'operations', 'analyst']",Junior,Operations
+281,41.0,Female,Bachelor's,Senior Project Coordinator,11.0,"['senior', 'project', 'coordinator']",Senior,Operations
+282,47.0,Male,Master's,Director of Marketing,19.0,"['director', 'marketing']",Director/Executive,Marketing
+283,29.0,Female,Bachelor's,Junior Business Development Associate,1.5,"['junior', 'business', 'development', 'associate']",Junior,Sales
+284,35.0,Male,Bachelor's,Senior Financial Manager,9.0,"['senior', 'financial', 'manager']",Senior,Finance
 285,44.0,Female,PhD,Senior Product Designer,15.0,"['senior', 'product', 'designer']",Senior,Design
-286,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Finance
-287,,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Finance
+286,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Sales
+287,,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
 288,44.0,Male,Bachelor's,Senior Software Engineer,13.0,"['senior', 'software', 'engineer']",Senior,Engineering
-289,32.0,Male,Bachelor's,Junior Product Manager,4.0,"['junior', 'product', 'manager']",Manager,Other
-290,38.0,Female,Bachelor's,Senior Business Analyst,10.0,"['senior', 'business', 'analyst']",Senior,Finance
-291,49.0,Male,PhD,Director of Operations,21.0,"['director', 'operations']",Director,Operations
-292,29.0,Female,Bachelor's,Junior Marketing Specialist,2.0,"['junior', 'marketing', 'specialist']",Mid,Marketing
-293,35.0,Male,Bachelor's,Senior Business Development Manager,7.0,"['senior', 'business', 'development', 'manager']",Manager,Sales
-294,45.0,Female,Master's,Senior HR Manager,14.0,"['senior', 'hr', 'manager']",Manager,HR
+289,32.0,Male,Bachelor's,Junior Product Manager,4.0,"['junior', 'product', 'manager']",Junior,Other
+290,38.0,Female,Bachelor's,Senior Business Analyst,10.0,"['senior', 'business', 'analyst']",Senior,Sales
+291,49.0,Male,PhD,Director of Operations,21.0,"['director', 'operations']",Director/Executive,Operations
+292,29.0,Female,Bachelor's,Junior Marketing Specialist,2.0,"['junior', 'marketing', 'specialist']",Junior,Marketing
+293,35.0,Male,Bachelor's,Senior Business Development Manager,7.0,"['senior', 'business', 'development', 'manager']",Senior,Sales
+294,45.0,Female,Master's,Senior HR Manager,14.0,"['senior', 'hr', 'manager']",Senior,HR
 295,33.0,Male,Bachelor's,Junior Financial Analyst,4.0,"['junior', 'financial', 'analyst']",Junior,Finance
-296,40.0,Female,Bachelor's,Senior Marketing Manager,12.0,"['senior', 'marketing', 'manager']",Manager,Marketing
+296,40.0,Female,Bachelor's,Senior Marketing Manager,12.0,"['senior', 'marketing', 'manager']",Senior,Marketing
 297,44.0,Male,PhD,Senior Data Scientist,16.0,"['senior', 'data', 'scientist']",Senior,Engineering
-298,30.0,Female,Bachelor's,Junior Operations Coordinator,2.0,"['junior', 'operations', 'coordinator']",Mid,Operations
-299,37.0,Male,Bachelor's,Senior Marketing Analyst,9.0,"['senior', 'marketing', 'analyst']",Senior,Finance
-300,48.0,Female,Master's,Director of HR,20.0,"['director', 'hr']",Director,HR
-301,31.0,Male,Bachelor's,Junior Project Manager,3.0,"['junior', 'project', 'manager']",Manager,Operations
-302,38.0,Female,Bachelor's,Senior Operations Coordinator,9.0,"['senior', 'operations', 'coordinator']",Mid,Operations
+298,30.0,Female,Bachelor's,Junior Operations Coordinator,2.0,"['junior', 'operations', 'coordinator']",Junior,Operations
+299,37.0,Male,Bachelor's,Senior Marketing Analyst,9.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
+300,48.0,Female,Master's,Director of HR,20.0,"['director', 'hr']",Director/Executive,HR
+301,31.0,Male,Bachelor's,Junior Project Manager,3.0,"['junior', 'project', 'manager']",Junior,Operations
+302,38.0,Female,Bachelor's,Senior Operations Coordinator,9.0,"['senior', 'operations', 'coordinator']",Senior,Operations
 303,45.0,Male,PhD,Senior Data Engineer,16.0,"['senior', 'data', 'engineer']",Senior,Engineering
-304,33.0,Female,Bachelor's,Junior Marketing Manager,5.0,"['junior', 'marketing', 'manager']",Manager,Marketing
-305,36.0,Male,Bachelor's,Senior Business Analyst,8.0,"['senior', 'business', 'analyst']",Senior,Finance
-306,49.0,Female,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director,Marketing
-307,31.0,Male,Bachelor's,Junior Operations Analyst,3.0,"['junior', 'operations', 'analyst']",Junior,Finance
-308,42.0,Female,Bachelor's,Senior Project Manager,12.0,"['senior', 'project', 'manager']",Manager,Operations
-309,47.0,Male,Master's,Director of Marketing,19.0,"['director', 'marketing']",Director,Marketing
-310,29.0,Female,Bachelor's,Junior Business Development Associate,1.5,"['junior', 'business', 'development', 'associate']",Mid,Sales
-311,35.0,Male,Bachelor's,Senior Financial Manager,9.0,"['senior', 'financial', 'manager']",Manager,Finance
+304,33.0,Female,Bachelor's,Junior Marketing Manager,5.0,"['junior', 'marketing', 'manager']",Junior,Marketing
+305,36.0,Male,Bachelor's,Senior Business Analyst,8.0,"['senior', 'business', 'analyst']",Senior,Sales
+306,49.0,Female,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director/Executive,Marketing
+307,31.0,Male,Bachelor's,Junior Operations Analyst,3.0,"['junior', 'operations', 'analyst']",Junior,Operations
+308,42.0,Female,Bachelor's,Senior Project Manager,12.0,"['senior', 'project', 'manager']",Senior,Operations
+309,47.0,Male,Master's,Director of Marketing,19.0,"['director', 'marketing']",Director/Executive,Marketing
+310,29.0,Female,Bachelor's,Junior Business Development Associate,1.5,"['junior', 'business', 'development', 'associate']",Junior,Sales
+311,35.0,Male,Bachelor's,Senior Financial Manager,9.0,"['senior', 'financial', 'manager']",Senior,Finance
 312,44.0,Female,PhD,Senior Product Designer,15.0,"['senior', 'product', 'designer']",Senior,Design
-313,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Finance
-314,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Finance
+313,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Sales
+314,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
 315,,Male,Bachelor's,Senior Software Engineer,13.0,"['senior', 'software', 'engineer']",Senior,Engineering
 316,34.0,Female,Master's,Senior Financial Advisor,6.0,"['senior', 'financial', 'advisor']",Senior,Finance
-317,36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,"['senior', 'marketing', 'specialist']",Mid,Marketing
-318,30.0,Female,Bachelor's,Junior HR Coordinator,2.0,"['junior', 'hr', 'coordinator']",Mid,HR
-319,37.0,Male,Bachelor's,Senior Business Development Manager,10.0,"['senior', 'business', 'development', 'manager']",Manager,Sales
-320,45.0,Female,Master's,Senior Marketing Manager,16.0,"['senior', 'marketing', 'manager']",Manager,Marketing
+317,36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,"['senior', 'marketing', 'specialist']",Senior,Marketing
+318,30.0,Female,Bachelor's,Junior HR Coordinator,2.0,"['junior', 'hr', 'coordinator']",Junior,HR
+319,37.0,Male,Bachelor's,Senior Business Development Manager,10.0,"['senior', 'business', 'development', 'manager']",Senior,Sales
+320,45.0,Female,Master's,Senior Marketing Manager,16.0,"['senior', 'marketing', 'manager']",Senior,Marketing
 321,32.0,Male,Bachelor's,Junior Financial Advisor,4.0,"['junior', 'financial', 'advisor']",Junior,Finance
-322,39.0,Female,Bachelor's,Senior Project Manager,12.0,"['senior', 'project', 'manager']",Manager,Operations
-323,47.0,Male,PhD,Director of Engineering,20.0,"['director', 'engineering']",Director,Other
-324,29.0,Female,Bachelor's,Junior Marketing Analyst,2.0,"['junior', 'marketing', 'analyst']",Junior,Finance
-325,36.0,Male,Bachelor's,Senior Operations Manager,9.0,"['senior', 'operations', 'manager']",Manager,Operations
+322,39.0,Female,Bachelor's,Senior Project Manager,12.0,"['senior', 'project', 'manager']",Senior,Operations
+323,47.0,Male,PhD,Director of Engineering,20.0,"['director', 'engineering']",Director/Executive,Other
+324,29.0,Female,Bachelor's,Junior Marketing Analyst,2.0,"['junior', 'marketing', 'analyst']",Junior,Marketing
+325,36.0,Male,Bachelor's,Senior Operations Manager,9.0,"['senior', 'operations', 'manager']",Senior,Operations
 326,43.0,Female,PhD,Senior Data Scientist,15.0,"['senior', 'data', 'scientist']",Senior,Engineering
-327,32.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,"['junior', 'marketing', 'coordinator']",Mid,Marketing
-328,38.0,Female,Bachelor's,Senior Business Analyst,10.0,"['senior', 'business', 'analyst']",Senior,Finance
-329,48.0,Male,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director,Marketing
-330,31.0,Female,Bachelor's,Junior Business Development Associate,3.0,"['junior', 'business', 'development', 'associate']",Mid,Sales
+327,32.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,"['junior', 'marketing', 'coordinator']",Junior,Marketing
+328,38.0,Female,Bachelor's,Senior Business Analyst,10.0,"['senior', 'business', 'analyst']",Senior,Sales
+329,48.0,Male,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director/Executive,Marketing
+330,31.0,Female,Bachelor's,Junior Business Development Associate,3.0,"['junior', 'business', 'development', 'associate']",Junior,Sales
 331,40.0,Male,Bachelor's,Senior Financial Analyst,12.0,"['senior', 'financial', 'analyst']",Senior,Finance
 332,45.0,Female,PhD,,16.0,[],Other,Other
-333,33.0,Male,Bachelor's,Junior Product Manager,4.0,"['junior', 'product', 'manager']",Manager,Other
-334,36.0,Female,Bachelor's,Senior Marketing Manager,8.0,"['senior', 'marketing', 'manager']",Manager,Marketing
-335,47.0,Male,Master's,Director of Operations,19.0,"['director', 'operations']",Director,Operations
-336,29.0,Female,Bachelor's,Junior Project Manager,2.0,"['junior', 'project', 'manager']",Manager,Operations
-337,34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,"['senior', 'operations', 'coordinator']",Mid,Operations
-338,44.0,Female,PhD,Senior Business Analyst,15.0,"['senior', 'business', 'analyst']",Senior,Finance
-339,33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,"['junior', 'marketing', 'specialist']",Mid,Marketing
-340,35.0,Female,Bachelor's,Senior Financial Manager,8.0,"['senior', 'financial', 'manager']",Manager,Finance
-341,43.0,Male,Master's,Director of Marketing,18.0,"['director', 'marketing']",Director,Marketing
+333,33.0,Male,Bachelor's,Junior Product Manager,4.0,"['junior', 'product', 'manager']",Junior,Other
+334,36.0,Female,Bachelor's,Senior Marketing Manager,8.0,"['senior', 'marketing', 'manager']",Senior,Marketing
+335,47.0,Male,Master's,Director of Operations,19.0,"['director', 'operations']",Director/Executive,Operations
+336,29.0,Female,Bachelor's,Junior Project Manager,2.0,"['junior', 'project', 'manager']",Junior,Operations
+337,34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,"['senior', 'operations', 'coordinator']",Senior,Operations
+338,44.0,Female,PhD,Senior Business Analyst,15.0,"['senior', 'business', 'analyst']",Senior,Sales
+339,33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,"['junior', 'marketing', 'specialist']",Junior,Marketing
+340,35.0,Female,Bachelor's,Senior Financial Manager,8.0,"['senior', 'financial', 'manager']",Senior,Finance
+341,43.0,Male,Master's,Director of Marketing,18.0,"['director', 'marketing']",Director/Executive,Marketing
 342,31.0,Female,Bachelor's,Junior Financial Analyst,3.0,"['junior', 'financial', 'analyst']",Junior,Finance
-343,41.0,Male,Bachelor's,Senior Product Manager,14.0,"['senior', 'product', 'manager']",Manager,Other
+343,41.0,Male,Bachelor's,Senior Product Manager,14.0,"['senior', 'product', 'manager']",Senior,Other
 344,44.0,Female,PhD,Senior Data Engineer,16.0,"['senior', 'data', 'engineer']",Senior,Engineering
-345,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Finance
-346,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Finance
-347,45.0,Male,Master's,Director of Engineering,19.0,"['director', 'engineering']",Director,Other
-348,28.0,Female,Bachelor's,Junior Operations Manager,1.0,"['junior', 'operations', 'manager']",Manager,Operations
-349,36.0,Male,Bachelor's,Senior Business Development Manager,8.0,"['senior', 'business', 'development', 'manager']",Manager,Sales
+345,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Sales
+346,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
+347,45.0,Male,Master's,Director of Engineering,19.0,"['director', 'engineering']",Director/Executive,Other
+348,28.0,Female,Bachelor's,Junior Operations Manager,1.0,"['junior', 'operations', 'manager']",Junior,Operations
+349,36.0,Male,Bachelor's,Senior Business Development Manager,8.0,"['senior', 'business', 'development', 'manager']",Senior,Sales
 350,44.0,Female,PhD,Senior Data Scientist,16.0,"['senior', 'data', 'scientist']",Senior,Engineering
-351,31.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,"['junior', 'marketing', 'coordinator']",Mid,Marketing
-352,38.0,Female,Bachelor's,Senior Business Analyst,10.0,"['senior', 'business', 'analyst']",Senior,Finance
-353,48.0,Male,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director,Marketing
-354,31.0,Female,Bachelor's,Junior Business Development Associate,3.0,"['junior', 'business', 'development', 'associate']",Mid,Sales
+351,31.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,"['junior', 'marketing', 'coordinator']",Junior,Marketing
+352,38.0,Female,Bachelor's,Senior Business Analyst,10.0,"['senior', 'business', 'analyst']",Senior,Sales
+353,48.0,Male,Master's,Director of Marketing,21.0,"['director', 'marketing']",Director/Executive,Marketing
+354,31.0,Female,Bachelor's,Junior Business Development Associate,3.0,"['junior', 'business', 'development', 'associate']",Junior,Sales
 355,40.0,Male,Bachelor's,Senior Financial Analyst,12.0,"['senior', 'financial', 'analyst']",Senior,Finance
 356,45.0,Female,PhD,Senior UX Designer,16.0,"['senior', 'ux', 'designer']",Senior,Design
-357,33.0,Male,Bachelor's,Junior Product Manager,4.0,"['junior', 'product', 'manager']",Manager,Other
-358,36.0,Female,Bachelor's,Senior Marketing Manager,8.0,"['senior', 'marketing', 'manager']",Manager,Marketing
-359,47.0,Male,Master's,Director of Operations,19.0,"['director', 'operations']",Director,Operations
-360,29.0,Female,Bachelor's,Junior Project Manager,2.0,"['junior', 'project', 'manager']",Manager,Operations
-361,34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,"['senior', 'operations', 'coordinator']",Mid,Operations
-362,44.0,Female,PhD,Senior Business Analyst,15.0,"['senior', 'business', 'analyst']",Senior,Finance
-363,33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,"['junior', 'marketing', 'specialist']",Mid,Marketing
-364,35.0,Female,Bachelor's,Senior Financial Manager,8.0,"['senior', 'financial', 'manager']",Manager,Finance
-365,43.0,Male,Master's,Director of Marketing,18.0,"['director', 'marketing']",Director,Marketing
+357,33.0,Male,Bachelor's,Junior Product Manager,4.0,"['junior', 'product', 'manager']",Junior,Other
+358,36.0,Female,Bachelor's,Senior Marketing Manager,8.0,"['senior', 'marketing', 'manager']",Senior,Marketing
+359,47.0,Male,Master's,Director of Operations,19.0,"['director', 'operations']",Director/Executive,Operations
+360,29.0,Female,Bachelor's,Junior Project Manager,2.0,"['junior', 'project', 'manager']",Junior,Operations
+361,34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,"['senior', 'operations', 'coordinator']",Senior,Operations
+362,44.0,Female,PhD,Senior Business Analyst,15.0,"['senior', 'business', 'analyst']",Senior,Sales
+363,33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,"['junior', 'marketing', 'specialist']",Junior,Marketing
+364,35.0,Female,Bachelor's,Senior Financial Manager,8.0,"['senior', 'financial', 'manager']",Senior,Finance
+365,43.0,Male,Master's,Director of Marketing,18.0,"['director', 'marketing']",Director/Executive,Marketing
 366,31.0,Female,,Junior Financial Analyst,3.0,"['junior', 'financial', 'analyst']",Junior,Finance
-367,41.0,Male,Bachelor's,Senior Product Manager,14.0,"['senior', 'product', 'manager']",Manager,Other
+367,41.0,Male,Bachelor's,Senior Product Manager,14.0,"['senior', 'product', 'manager']",Senior,Other
 368,44.0,Female,PhD,Senior Data Engineer,16.0,"['senior', 'data', 'engineer']",Senior,Engineering
-369,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Finance
-370,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Finance
-371,43.0,Male,Master's,Director of Operations,19.0,"['director', 'operations']",Director,Operations
-372,29.0,Female,Bachelor's,Junior Project Manager,2.0,"['junior', 'project', 'manager']",Manager,Operations
-373,34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,"['senior', 'operations', 'coordinator']",Mid,Operations
-374,44.0,Female,PhD,Senior Business Analyst,15.0,"['senior', 'business', 'analyst']",Senior,Finance
+369,33.0,Male,Bachelor's,Junior Business Analyst,4.0,"['junior', 'business', 'analyst']",Junior,Sales
+370,35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,"['senior', 'marketing', 'analyst']",Senior,Marketing
+371,43.0,Male,Master's,Director of Operations,19.0,"['director', 'operations']",Director/Executive,Operations
+372,29.0,Female,Bachelor's,Junior Project Manager,2.0,"['junior', 'project', 'manager']",Junior,Operations
+373,34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,"['senior', 'operations', 'coordinator']",Senior,Operations
+374,44.0,Female,PhD,Senior Business Analyst,15.0,"['senior', 'business', 'analyst']",Senior,Sales
