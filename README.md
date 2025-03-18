@@ -27,5 +27,7 @@ Dataset was provided. There are 3 files.
 # <h2 id="2">**2. Data Analysis - ETL and EDA**</h2>
 
 - Data contains 375 employees' jobs information.
-- There are very few missing values. They are filled with information from Job Description when it's possible. 2 rows were eliminated with no information.
+- There are very few missing values. They are filled with information from Job Description when it's possible. Rows with null values were eliminated.
 - Therer are not outliers.
+- Job Description was analyzed and split into Seniority and Industry
+- 'Job Title', 'Description' were eliminated from the final dataset for final use into ML Model.

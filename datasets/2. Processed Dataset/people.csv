@@ -1,4 +1,4 @@
-id,Age,Gender,Education Level,Job Title,Years of Experience,job_title_descriptions,Seniority,Industy
+id,Age,Gender,Education Level,Job Title,Years of Experience,job_title_descriptions,Seniority,Industry
 0,32.0,Male,Bachelor's,Software Engineer,5.0,"['software', 'engineer']",Other,Engineering
 1,28.0,Female,Master's,Data Analyst,3.0,"['data', 'analyst']",Other,Engineering
 2,45.0,Male,PhD,Senior Manager,15.0,"['senior', 'manager']",Senior,Other
