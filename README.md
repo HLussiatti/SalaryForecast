@@ -24,10 +24,12 @@ Dataset was provided. There are 3 files.
 3. [Descriptions.csv](./datasets/1.%20Original%20Dataset/descriptions.csv): contains the job description written by the employee.
 
 
-# <h2 id="2">**2. Data Analysis - ETL and EDA**</h2>
+# <h2 id="2">**2. Data Analysis and Preprocessing - ETL and EDA**</h2>
 
 - Data contains 375 employees' jobs information.
 - There are very few missing values. They are filled with information from Job Description when it's possible. Rows with null values were eliminated.
-- Therer are not outliers.
-- Job Description was analyzed and split into Seniority and Industry
-- 'Job Title', 'Description' were eliminated from the final dataset for final use into ML Model.
+- There are not outliers.
+- Job Title was analyzed in [NLP_Job_Titles](./notebooks/1.%20NLP_Job_Tiltes.ipynb) and split into Seniority and Industry.
+- Job Description was analyzed in [NLP_Job_Descriptions](./notebooks/2.%20NLP_Job_Descriptions.ipynb) to find words like Skills that helps the model, but none were found.
+- 'Job Title' and 'Description' were eliminated from the final dataset for final use into ML Model.
+- Normalization and PCA was applied.
