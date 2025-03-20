@@ -94,19 +94,21 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 5. The R² interval indicates the model consistently explains a high proportion of variance in the test data.
 
 <div align="center">
+
 | Model              | Bias      | MAE      | RMSE     | %RMSE  | R²    |  
 |-------------------|----------|----------|----------|--------|-------|  
 | **Linear Regression**  | -70.940,84 | 11.362,59 | 16.472,49 | 16,86% | 0,8922 |  
 | **Random Forest**      | 91.563,08 | 9.815,12  | 16.129,81 | 16,51% | 0,8967 |  
 | **XGBoost**           | -36.244,40 | 10.069,25 | 15.401,40 | 15,76% | 0,9058 |  
 | **Neural Network**    | -297.478,93  | 10.704,20 | 15.397,06 | 15,76% | 0,9058 | 
+
 </div>
 
 
 - Confidence Intervals (95% CI) for XGBoost results:
-    - **MAE:** [7.834,30, 12.808,93]
-    - **RMSE:** [11.157,84, 19.961,32]
-    - **R²:** [0,8569, 0,9476]
+    - **MAE:** [7.834,30; 12.808,93]
+    - **RMSE:** [11.157,84; 19.961,32]
+    - **R²:** [0,8569; 0,9476]
 
 ---
 
@@ -116,14 +118,16 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 - Linear Regression performs the worst across all metrics, which is expected given the complexity of the data.
 - The gap between Train R² and Test R² for XGBoost is not excessively large, but it does suggest some degree of overfitting. However, the Test R² (0.9058) is still quite high, indicating that the model generalizes well.
 
+<div align="center">
 
 | Model             | Train R² | Test R² | Train RMSE | Test RMSE | Train MAE | Test MAE | Train %RMSE | Test %RMSE |
 |------------------|---------|--------|-----------|-----------|---------|---------|-------------|------------|
-| **Linear Regression** | 0.9112  | 0.8922  | 14,220.76  | 16,472.49  | 10,555.59  | 11,362.59  | 13.99% | 16.86% |
-| **Random Forest**    | 0.9771  | 0.8969  | 7,222.74  | 16,114.95  | 4,621.83  | 9,815.12  | 7.10% | 16.49% |
-| **XGBoost**          | 0.9828  | 0.9058  | 6,260.04  | 15,401.40  | 4,389.41  | 10,069.25  | 6.16% | 15.76% |
-| **Neural Network**    | 0.9475  | 0.9058  | 10,934.10  | 15,397.06  | 7,753.75  | 10,704.20  | 10.75% | 15.76% |
+| **Linear Regression** | 0,9112  | 0,8922  | 14.220,76  | 16.472,49  | 10.555,59  | 11.362,59  | 13,99% | 16,86% |
+| **Random Forest**    | 0,9771  | 0,8969  | 7.222,74  | 16.114,95  | 4.621,83  | 9.815,12  | 7,10% | 16,49% |
+| **XGBoost**          | 0,9828  | 0,9058  | 6.260,04  | 15.401,40  | 4.389,41  | 10.069,25  | 6,16% | 15,76% |
+| **Neural Network**    | 0,9475  | 0,9058  | 10.934,10  | 15.397,06  | 7.753,75  | 10.704,20  | 10,75% | 15,76% |
 
+</div>
 ---
 
 # <h3 id="6"> **3.3. Cross-Validation Results**</h3>
@@ -131,13 +135,16 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 **Key Observations:**
 - XGBoost and Neural Network have the **highest cross-validation scores** (0.89) with relatively low standard deviation, demonstrating their consistency.
 
+<div align="center">
+
 | Model               | CV Mean R² | CV Std R² |  
 |---------------------|------------|------------|  
-| **Linear Regression** | 0.88       | 0.07       |  
-| **Random Forest**     | 0.87       | 0.08       |  
-| **XGBoost**          | 0.89       | 0.07       |  
-| **Neural Network**   | 0.89       | 0.06       |  
+| **Linear Regression** | 0,88       | 0,07       |  
+| **Random Forest**     | 0,87       | 0,08       |  
+| **XGBoost**          | 0,89       | 0,07       |  
+| **Neural Network**   | 0,89       | 0,06       |  
 
+</div>
 ---
 
 # <h3 id="7"> **3.4. Feature importance**</h3>
