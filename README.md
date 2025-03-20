@@ -1,7 +1,4 @@
-# <h1 align=center> ** SALARY FORECAST MODEL ** </h1>
-
-## Introduction
-
+# <h1 align=center> **SALARY FORECAST MODEL** </h1>
 
 ## Objective
 
@@ -9,10 +6,15 @@ Develop a predictive model to forecast an individual's salary based on a the giv
 Design and implement a predictive model to forecast salaries, including all necessary preprocessing steps, feature engineering, and model evaluation logic.
 
 
-# TABLA DE CONTENIDO
+# Table of Contents
 1. [Data Source Description](#1)
 2. [Data Analysis and Preprocessing - ETL and EDA](#2)
 3. [Machine Learning Model Comparison](#3)
+    - [3.1. Hyperparameters Tuning Results](#4)
+    - [3.2. Performance Comparison (Train vs Test)](#5)
+    - [3.3. Cross-Validation Results](#6)
+    - [3.4. Feature importance](#7)
+4. [Conclusions](#8)
 
 
 
@@ -29,98 +31,149 @@ Dataset was provided. There are 3 files.
 - Data contains 375 employees' jobs information.
 - Collected and cleaned salary dataset.
     - There are very few missing values. They are filled with information from Job Description when it's possible. Rows with null values were eliminated.
+- Main EDA conclusions:
+    - Gender: de dataset is balanced for this feature.
     - There are not outliers.
+    - Dataset contains most employees with Bachelor's degree with Senior level of Seniority.
+    - Highest Salaries are for PhD Eductation Level and Director/Executive Seniority.
+
+
+<p align="center">
+<img src="./img/Salary Boxplot.png"  style="max-width: 100%; height: auto;">
+</p>
+
+- Correlation:
+    - Years of Experience and Age present the highest correlation with Salary
+    - Eductation Level and Seniority have lower correlation with Salary
+    - Gender has no correlation with any variable
+
+
+<p align="center">
+<img src="./img/Heatmap Correlation Matrix.png"  style="max-width: 100%; height: auto;">
+</p>
 
 - Feature Engineering:
     - Job Title was analyzed in [NLP_Job_Titles](./notebooks/1.%20NLP_Job_Tiltes.ipynb) and split into Seniority and Industry.
     - Job Description was analyzed in [NLP_Job_Descriptions](./notebooks/2.%20NLP_Job_Descriptions.ipynb) to find words like Skills that helps the model, but none were found.
     - 'Job Title' and 'Description' were eliminated from the final dataset for final use into ML Model.
-    - Normalization and PCA was applied.
-
+    - Normalization and PCA was applied. There's not a significant dimensionality reduction beacause of the few features.
 
 # <h2 id="3">**3. Machine Learning Model Comparison**</h2>
 
-We developed and optimized machine learning models to predict salaries based on various features. 
+This project aims to predict employee salaries using Machine Learning models. Various regression models were evaluated, including dimensionality reduction with PCA to improve efficiency.
 The main goal was to compare different models, tune hyperparameters, and evaluate their performance using multiple metrics.
-Lienar Regression was used as a baseline model.
 
-Results were evaluated using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), Percentage Root Mean Squared Error (%RMSE), and R-squared (R2) score.
-These metrics help assess the accuracy and reliability of the predictions.
-MAE and RMSE helps to quantify errors in prediction, RMSE penalize large errors more than MAE. %RMSE helps to quantify relative error to the predictive varbiable (Salary). Finally R2 quantify how much of the prediction variance is explained by the model.
+- **Evaluated Models**:  
+  - Linear Regression  
+  - Random Forest Regressor  
+  - XGBoost Regressor  
+  - Neural Network (MLPRegressor)  
+- **Model Evaluation**:  
+  - `GridSearchCV` was used for hyperparameter tuning.  
+  - Metrics calculated: `Bias`, `MAE`, `RMSE`, `%RMSE`, and `R²`.  
+  - Compared **training vs. test performance** to check for overfitting.
+  - **cross-validation** was performed using `cross_val_score` to assess model stability.
+  - Bootstrap was applied to calculate Confidence Intervals.
+  - Feature importance and SHAP analysis was applied.
+  
 
 
-# <h3 id="4"> **3.1. Initial Results (Before Hyperparameter Tuning)**</h3>
+# <h3 id="4"> **3.1. Hyperparameters Tuning Results**</h3>
 
-- Implemented **Linear Regression, Random Forest, XGBoost, and Neural Network** models.
-- Evaluated models using **MAE, RMSE, %RMSE, and R²**.
-
-| Model               | MAE    | RMSE    | %RMSE  | R²   |
-|----------------------|--------|--------|--------|------|
-| **Linear Regression** | 9579.99 | 13087.34 | 13.08% | 0.93 |
-| **Random Forest**     | 7737.37 | 11778.31 | 11.77% | 0.94 |
-| **XGBoost**          | 8030.99 | 12429.49 | 12.42% | 0.93 |
-| **Neural Network**    | 9782.02 | 12843.88 | 12.84% | 0.90 |
-
----
-
-# <h3 id="5"> **3.2. Best Hyperparameters Found and Results After Hyperparameter Tuning**</h3>
-
-- Applied **Grid Search** and **Random Search** to optimize hyperparameters.
-- Selected the best hyperparameters for each model.
-🔹 **Best Model:** *Neural Network*, with the lowest RMSE and highest R².
-
-| Model              | Best Hyperparameters |
-|---------------------|-----------------------------------------------|
-| **Linear Regression** | `{}` (no changes) |
-| **Random Forest**    | `max_depth=8, min_samples_split=10, n_estimators=300` |
-| **XGBoost**         | `learning_rate=0.1, max_depth=3, n_estimators=100` |
-| **Neural Network**   | `alpha=0.01, hidden_layer_sizes=(64,32), learning_rate_init=0.01` |
+- **Linear Regression:** Default parameters
+- **Random Forest:** `max_depth=8`, `min_samples_split=5`, `n_estimators=200`
+- **XGBoost:** `learning_rate=0.2`, `max_depth=3`, `n_estimators=50`
+- **Neural Network:** `alpha=0.0001`, `hidden_layer_sizes=(128, 64)`, `learning_rate_init=0.01`
 
 ---
 
-| Model               | MAE    | RMSE    | %RMSE  | R²   |
-|----------------------|--------|--------|--------|------|
-| **Linear Regression** | 9580.00 | 13087.34 | 13.08% | 0.93 |
-| **Random Forest**     | 8281.45 | 12637.87 | 12.63% | 0.93 |
-| **XGBoost**          | 8645.05 | 12102.86 | 12.10% | 0.94 |
-| **Neural Network**    | 6906.78 | 9880.52  | 9.87%  | 0.96 |
+**Key Observations:**
+1. XGBoost and the Neural Network demonstrate the best performance on the test data, achieving the lowest RMSE and the highest R² but Neural Network shows the highest bias, indicating a stronger systematic underprediction.
+3. Random Forest performs slightly worse than XGBoost in terms of RMSE but shows competitive results overall.
+4. The 95% confidence intervals demonstrate the stability of the XGBoost model, with relatively narrow ranges for MAE and RMSE.
+5. The R² interval indicates the model consistently explains a high proportion of variance in the test data.
+
+
+| Model              | Bias      | MAE      | RMSE     | %RMSE  | R²    |  
+|-------------------|----------|----------|----------|--------|-------|  
+| **Linear Regression**  | -70.940,84 | 11.362,59 | 16.472,49 | 16,86% | 0,8922 |  
+| **Random Forest**      | 91.563,08 | 9.815,12  | 16.129,81 | 16,51% | 0,8967 |  
+| **XGBoost**           | -36.244,40 | 10.069,25 | 15.401,40 | 15,76% | 0,9058 |  
+| **Neural Network**    | -297.478,93  | 10.704,20 | 15.397,06 | 15,76% | 0,9058 | 
+ 
+
+
+- Confidence Intervals (95% CI) for XGBoost results:
+    - **MAE:** [7.834,30, 12.808,93]
+    - **RMSE:** [11.157,84, 19.961,32]
+    - **R²:** [0,8569, 0,9476]
 
 ---
 
-# <h3 id="6"> **3.3. Performance Comparison (Train vs Test R² and RMSE)**</h3>
+# <h3 id="5"> **3.2. Performance Comparison (Train vs Test)**</h3>
 
-- Compared **training vs. test performance** to check for overfitting.
-- Conducted **cross-validation** to ensure model stability.
-- Identified **Neural Network** as the best-performing model.
-🔹 *Random Forest and XGBoost show slight overfitting, but Neural Network maintains the best balance between train and test performance.*
+**Key Observations:**
+- Linear Regression performs the worst across all metrics, which is expected given the complexity of the data.
+- The gap between Train R² and Test R² for XGBoost is not excessively large, but it does suggest some degree of overfitting. However, the Test R² (0.9058) is still quite high, indicating that the model generalizes well.
 
-| Model               | Train R² | Test R² | Train RMSE | Test RMSE |
-|----------------------|----------|---------|------------|-----------|
-| **Linear Regression** | 0.92     | 0.93    | 13623.02   | 13087.34  |
-| **Random Forest**     | 0.97     | 0.93    | 8432.13    | 12637.87  |
-| **XGBoost**          | 0.98     | 0.94    | 7306.06    | 12102.86  |
-| **Neural Network**    | 0.95     | 0.96    | 10943.24   | 9880.52   |
 
----
-
-# <h3 id="7"> **3.4. Cross-Validation Results (Average R² ± Std)**</h3>
-
-🔹 *Neural Network maintains the highest stability and performance in cross-validation.*
-
-| Model               | Cross-Validation R² (Mean ± Std) |
-|----------------------|----------------------------------|
-| **Linear Regression** | 0.90 ± 0.05 |
-| **Random Forest**     | 0.89 ± 0.07 |
-| **XGBoost**          | 0.90 ± 0.05 |
-| **Neural Network**    | 0.92 ± 0.03 |
-
+| Model             | Train R² | Test R² | Train RMSE | Test RMSE | Train MAE | Test MAE | Train %RMSE | Test %RMSE |
+|------------------|---------|--------|-----------|-----------|---------|---------|-------------|------------|
+| **Linear Regression** | 0.9112  | 0.8922  | 14,220.76  | 16,472.49  | 10,555.59  | 11,362.59  | 13.99% | 16.86% |
+| **Random Forest**    | 0.9771  | 0.8969  | 7,222.74  | 16,114.95  | 4,621.83  | 9,815.12  | 7.10% | 16.49% |
+| **XGBoost**          | 0.9828  | 0.9058  | 6,260.04  | 15,401.40  | 4,389.41  | 10,069.25  | 6.16% | 15.76% |
+| **Neural Network**    | 0.9475  | 0.9058  | 10,934.10  | 15,397.06  | 7,753.75  | 10,704.20  | 10.75% | 15.76% |
 
 ---
 
-# <h2 id="8">**Final Conclusion**</h2>
-- 📌 *Neural Network* achieved the **best results** across all key metrics (lowest RMSE, highest R², and best cross-validation).  
-- 📌 *XGBoost* also performed well, offering a good balance between training and test performance.  
-- 📌 *Random Forest* had solid results but showed **slight overfitting**.  
-- 📌 *Linear Regression* had acceptable performance but was outperformed by the other models.  
+# <h3 id="6"> **3.3. Cross-Validation Results**</h3>
 
-✅ **Recommendation:** Use **Neural Network** as the final optimized model. 🚀
+**Key Observations:**
+- XGBoost and Neural Network have the **highest cross-validation scores** (0.89) with relatively low standard deviation, demonstrating their consistency.
+
+| Model               | CV Mean R² | CV Std R² |  
+|---------------------|------------|------------|  
+| **Linear Regression** | 0.88       | 0.07       |  
+| **Random Forest**     | 0.87       | 0.08       |  
+| **XGBoost**          | 0.89       | 0.07       |  
+| **Neural Network**   | 0.89       | 0.06       |  
+
+---
+
+# <h3 id="7"> **3.4. Feature importance**</h3>
+The most influential features in the **XGBoost model** are PC2 meaning that Industry is not important and ther're similar contribution from every feature but Gender.
+<p align="center">
+<img src="./img/XGBoost Feature Importance.png"  style="max-width: 100%; height: auto;">
+</p>
+
+
+# <h3 id="8"> **4. Conclusion**</h3>
+
+- **XGBoost and Neural Network performed the best**, achieving the lowest RMSE (~15.76% error rate).  
+- **XGBoost** provides a balanced trade-off between predictive performance and computational efficiency. May require more careful hyperparameter Possible actions to reduce overfitting:
+    1. Increase regularization (reg_lambda, reg_alpha in XGBoost).
+    2. Reduce model complexity (max_depth, min_child_weight).
+    3. Increase training data to improve generalization.
+    4. Apply early stopping to prevent overfitting.
+- **Cross-validation confirmed that Neural Networks had the most stable performance**, with the lowest variance in `R²`.  
+- **Feauture SHAP Analysis** shows PC2 (has similar contribution from every feature but Gender) is the main feature explaining the model.
+
+
+- **Future Work:**
+    - Further fine-tune XGBoost parameters.
+    - Perform deeper feature importance analysis to identify the most influential predictors.
+    - Consider feature engineering for improving model accuracy.
+    - Investigate alternative architectures for the Neural Network.
+    - Explore ensemble methods to combine predictions from the top-performing models.
+    
+
+# <h3>**Requirements**</h3>
+- Python 3.7 o superior
+- padas
+- numpy
+- ydata_profiling.
+- matplotlib.
+- seaborn.
+- scikit-learn
+- xgboost
+- shap
