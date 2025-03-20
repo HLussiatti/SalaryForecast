@@ -128,7 +128,6 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 | **Neural Network**    | 0,9475  | 0,9058  | 10.934,10  | 15.397,06  | 7.753,75  | 10.704,20  | 10,75% | 15,76% |
 
 </div>
----
 
 # <h3 id="6"> **3.3. Cross-Validation Results**</h3>
 
@@ -145,7 +144,7 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 | **Neural Network**   | 0,89       | 0,06       |  
 
 </div>
----
+
 
 # <h3 id="7"> **3.4. Feature importance**</h3>
 The most influential features in the **XGBoost model** are PC2 meaning that Industry is not important and ther're similar contribution from every feature but Gender.
