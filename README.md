@@ -93,14 +93,14 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 4. The 95% confidence intervals demonstrate the stability of the XGBoost model, with relatively narrow ranges for MAE and RMSE.
 5. The R² interval indicates the model consistently explains a high proportion of variance in the test data.
 
-
+<div align="center">
 | Model              | Bias      | MAE      | RMSE     | %RMSE  | R²    |  
 |-------------------|----------|----------|----------|--------|-------|  
 | **Linear Regression**  | -70.940,84 | 11.362,59 | 16.472,49 | 16,86% | 0,8922 |  
 | **Random Forest**      | 91.563,08 | 9.815,12  | 16.129,81 | 16,51% | 0,8967 |  
 | **XGBoost**           | -36.244,40 | 10.069,25 | 15.401,40 | 15,76% | 0,9058 |  
 | **Neural Network**    | -297.478,93  | 10.704,20 | 15.397,06 | 15,76% | 0,9058 | 
- 
+</div>
 
 
 - Confidence Intervals (95% CI) for XGBoost results:
