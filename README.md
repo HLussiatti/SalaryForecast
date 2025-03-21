@@ -1,4 +1,6 @@
-# <h1 align=center> **SALARY FORECAST MODEL** </h1>
+<p align="center">
+<img src="./img/banner.webp"  style="max-width: 100%; height: auto;">
+</p>
 
 ## Objective
 
