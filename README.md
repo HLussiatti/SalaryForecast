@@ -30,13 +30,13 @@ Dataset was provided. There are 3 files.
 
 # <h2 id="2">**2. Data Analysis, Preprocessing & Feature Engineering**</h2>
 
-- Data contains 375 employees' jobs information.
+- Data contains 375 employees' job information.
 - Collected and cleaned salary dataset.
-    - There are very few missing values. They are filled with information from Job Description when it's possible. Rows with null values were eliminated.
+    - There are very few missing values. They are filled with information from Job Description when it's possible. Rows with null values were deleted.
 - Main EDA conclusions:
-    - Gender: de dataset is balanced for this feature.
+    - Gender: dataset is balanced for this feature.
     - There are not outliers.
-    - Dataset contains most employees with Bachelor's degree with Senior level of Seniority.
+    - Most employees have a Bachelor's degree and Senior level.
     - Highest Salaries are for PhD Eductation Level and Director/Executive Seniority.
 
 
@@ -45,9 +45,9 @@ Dataset was provided. There are 3 files.
 </p>
 
 - Correlation:
-    - Years of Experience and Age present the highest correlation with Salary
-    - Eductation Level and Seniority have lower correlation with Salary
-    - Gender has no correlation with any variable
+    - Years of Experience and Age present the highest correlation with Salary.
+    - Eductation Level and Seniority have lower correlation with Salary.
+    - Gender has no correlation with any variable.
 
 
 <p align="center">
@@ -62,7 +62,7 @@ Dataset was provided. There are 3 files.
 
 # <h2 id="3">**3. Machine Learning Model Comparison**</h2>
 
-This project aims to predict employee salaries using Machine Learning models. Various regression models were evaluated, including dimensionality reduction with PCA to improve efficiency.
+This project aims to predict employee salaries using Machine Learning models. Various regression models were analized, including dimensionality reduction with PCA to improve efficiency.
 The main goal was to compare different models, tune hyperparameters, and evaluate their performance using multiple metrics.
 
 - **Evaluated Models**:  
@@ -90,9 +90,9 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 ---
 
 **Key Observations:**
-1. XGBoost and the Neural Network demonstrate the best performance on the test data, achieving the lowest RMSE and the highest R² but Neural Network shows the highest bias, indicating a stronger systematic underprediction.
+1. XGBoost and the Neural Network demonstrate best performance on the test data, achieving the lowest RMSE and the highest R² but Neural Network shows the highest bias, indicating a stronger systematic underprediction.
 3. Random Forest performs slightly worse than XGBoost in terms of RMSE but shows competitive results overall.
-4. The 95% confidence intervals demonstrate the stability of the XGBoost model, with relatively narrow ranges for MAE and RMSE.
+4. 95% confidence intervals demonstrate the stability of the XGBoost model, with relatively narrow ranges for MAE and RMSE.
 5. The R² interval indicates the model consistently explains a high proportion of variance in the test data.
 
 <div align="center">
@@ -117,7 +117,7 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 # <h3 id="5"> **3.2. Performance Comparison (Train vs Test)**</h3>
 
 **Key Observations:**
-- Linear Regression performs the worst across all metrics, which is expected given the complexity of the data.
+- Linear Regression performs worst across all metrics, which is expected given the complexity of the data.
 - The gap between Train R² and Test R² for XGBoost is not excessively large, but it does suggest some degree of overfitting. However, the Test R² (0.9058) is still quite high, indicating that the model generalizes well.
 
 <div align="center">
@@ -149,7 +149,7 @@ The main goal was to compare different models, tune hyperparameters, and evaluat
 
 
 # <h3 id="7"> **3.4. Feature importance**</h3>
-The most influential features in the **XGBoost model** are PC2 meaning that Industry is not important and ther're similar contribution from every feature but Gender.
+The most influential feature in the **XGBoost model** is PC2 meaning that Industry is not important and there're similar contributions from every feature but Gender.
 <p align="center">
 <img src="./img/XGBoost Feature Importance.png"  style="max-width: 100%; height: auto;">
 </p>
@@ -157,8 +157,8 @@ The most influential features in the **XGBoost model** are PC2 meaning that Indu
 
 # <h3 id="8"> **4. Conclusion**</h3>
 
-- **XGBoost and Neural Network performed the best**, achieving the lowest RMSE (~15.76% error rate).  
-- **XGBoost** provides a balanced trade-off between predictive performance and computational efficiency. May require more careful hyperparameter Possible actions to reduce overfitting:
+- **XGBoost and Neural Network performed best**, achieving the lowest RMSE (~15.76% error rate).  
+- **XGBoost** provides a balanced trade-off between predictive performance and computational efficiency. May require more careful hyperparameter. Possible actions to reduce overfitting:
     1. Increase regularization (reg_lambda, reg_alpha in XGBoost).
     2. Reduce model complexity (max_depth, min_child_weight).
     3. Increase training data to improve generalization.
